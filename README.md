@@ -5,11 +5,8 @@
 
 ## 📖 Introduction / 简介
 
-This repository serves as a collection of my personal notes and miscellaneous thoughts. The content is synchronized from my Feishu (Lark) workspace, allowing you to access the original Markdown source files directly.
-这里是 Lain 的笔记库，主要内容作为个人笔记杂记，与飞书平台保持同步。
-
-In the future, I plan to build an API interface to integrate these notes into my personal website.
-之后尝试拉个接口到个人网站。
+This repository houses my personal notes and miscellaneous thoughts, synchronized directly from my Feishu (Lark) workspace. For the best viewing experience, please open the original Markdown files with Typora.
+这里是 Lain 的个人笔记库，收录日常笔记与杂记内容，所有文件均与飞书（Feishu/Lark）空间实时同步。建议使用 Typora 打开 Markdown 源文件以获得最佳阅读体验。
 
 ## 🗂️ Topics / 主要内容
 
