@@ -1,21 +1,26 @@
-📚 Lain's Notes | Lain 的笔记库
-Synced with Feishu for easy access to raw Markdown files. 与飞书同步更新，便于各位读者拿取原始 MD 文件。
+# 📚 Lain's Notes | Lain 的笔记库
 
-📖 Introduction / 简介
-This repository serves as a collection of my personal notes and miscellaneous thoughts. The content is synchronized from my Feishu (Lark) workspace, allowing you to access the original Markdown source files directly. 这里是 Lain 的笔记库，主要内容作为个人笔记杂记，与飞书平台保持同步。
+> Synced with Feishu for easy access to raw Markdown files.
+> 与飞书同步更新，便于各位读者拿取原始 MD 文件。
 
-In the future, I plan to build an API interface to integrate these notes into my personal website. 之后尝试拉个接口到个人网站。
+## 📖 Introduction / 简介
 
-🗂️ Topics / 主要内容
-My notes cover a wide range of technical topics, including but not limited to: 主要内容涵盖以下领域：
+This repository serves as a collection of my personal notes and miscellaneous thoughts. The content is synchronized from my Feishu (Lark) workspace, allowing you to access the original Markdown source files directly.
+这里是 Lain 的笔记库，主要内容作为个人笔记杂记，与飞书平台保持同步。
 
-Embedded Systems: MCU Development (MCU 开发)
+In the future, I plan to build an API interface to integrate these notes into my personal website.
+之后尝试拉个接口到个人网站。
 
-Linux: Bug Debugging, Driver Porting & Adaptation (Linux bug 排查与驱动适配移植)
+## 🗂️ Topics / 主要内容
 
-Robotics: General Robotics, SLAM (机器人学、SLAM)
+My notes cover a wide range of technical topics, including but not limited to:
+主要内容涵盖以下领域：
 
-Artificial Intelligence: Reinforcement Learning, Imitation Learning (强化学习、模仿学习)
+* **Embedded Systems:** MCU Development (MCU 开发)
+* **Linux:** Bug Debugging, Driver Porting & Adaptation (Linux bug 排查与驱动适配移植)
+* **Robotics:** General Robotics, SLAM (机器人学、SLAM)
+* **Artificial Intelligence:** Reinforcement Learning, Imitation Learning (强化学习、模仿学习)
 
-🔗 Links / 链接
-Feishu (Lark) Knowledge Base: Click here to view / 点击跳转飞书主页
+## 🔗 Links / 链接
+
+* **Feishu (Lark) Knowledge Base:** [Click here to view / 点击跳转飞书主页](https://wcn9j5638vrr.feishu.cn/wiki/space/7570988375279517715?ccm_open_type=lark_wiki_spaceLink&open_tab_from=wiki_home)
