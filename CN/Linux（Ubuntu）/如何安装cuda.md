@@ -1,7 +1,7 @@
 
 # 如何安装CUDA
 [CUDA Toolkit 存档地址](https://developer.nvidia.com/cuda-toolkit-archive)
-![img](./1.如何安装cuda.assets/1764511641133-2.png)
+![img](./如何安装cuda.assets/1764511641133-2.png)
 
 
 ## 1. 基础安装命令
@@ -50,7 +50,7 @@ nvcc -V
 
 ### 步骤3：测试Isaac Gym
 当前驱动（535版本）+ CUDA 12.1已满足Isaac Gym的环境要求，可正常安装运行。
-![img](./1.如何安装cuda.assets/1764511641131-1.png)
+![img](./如何安装cuda.assets/1764511641131-1.png)
 
 
 ## 总结

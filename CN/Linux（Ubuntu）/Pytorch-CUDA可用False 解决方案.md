@@ -64,4 +64,4 @@ python -c "import torch; print('CUDA 可用:', torch.cuda.is_available())"
 - **驱动版本**：RTX 2080 Ti 支持最新 NVIDIA 驱动，直接安装系统推荐的高版本即可。
 
 按以上步骤操作后，通常能解决驱动通信问题，让 PyTorch 正常使用 GPU 加速。
-![1280X1280](./2.Pytorch-CUDA可用False 解决方案.assets/1.PNG)
+![1280X1280](./Pytorch-CUDA可用False 解决方案.assets/1.PNG)
