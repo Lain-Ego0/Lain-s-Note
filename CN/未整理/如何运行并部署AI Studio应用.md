@@ -23,7 +23,7 @@
 
 1. **下载代码**：从 AI Studio 下载了 `.zip` 压缩包。
 
-2. **解压**：将压缩包解压到一个您容易找到的文件夹中，例如 `Desktop/my-ai-app`。
+2. **解压**：将压缩包解压到一个容易找到的文件夹中，例如 `Desktop/my-ai-app`。
 
 3. **进入目录**：
 
@@ -95,9 +95,9 @@ npm run dev
 
 ### 第六步：在浏览器中查看
 
-1. 打开您的浏览器（Chrome, Edge 等）。
+1. 打开浏览器（Chrome, Edge 等）。
 2. 在地址栏输入：`http://localhost:3000`
-3. 现在您应该能看到并使用您的 AI 应用程序了！
+3. 现在应该能看到并使用 AI 应用程序了
 
 ------
 
@@ -107,111 +107,56 @@ npm run dev
 - **报错 `EADDRINUSE: address already in use`**：说明端口（如 3000）被占用了。您可以尝试关闭其他正在运行的开发程序，或者查看 `package.json` 修改启动端口。
 - **应用报错 "API Key invalid"**：请检查 `.env.local` 文件名是否正确（不要叫 `.env.local.txt`），以及 Key 是否复制完整。
 
-------
-
-**您想让我帮您解释一下这个项目里的代码结构（比如核心逻辑在哪里），以便您进行修改吗？**
-
 
 
 
 
 # Vercel 部署
 
-### 第一阶段：准备与安全检查（至关重要）
+### 第一步：准备与安全检查（至关重要）
 
-在上传代码之前，我们必须确保**不要**把您的密钥文件传到公开的 GitHub 上。
+在上传代码之前，必须确保**不要**把您的密钥文件传到公开的 GitHub 上。
 
 1. **检查 `.gitignore` 文件**：
 
-   - 在您的项目根目录下，找找看有没有一个叫 `.gitignore` 的文件（如果没有，请新建一个，名字就是 `.gitignore`）。
+   - 在项目根目录下，找找看有没有一个叫 `.gitignore` 的文件（如果没有，请新建一个，名字就是 `.gitignore`）。
 
    - 用记事本打开它，确保里面有以下两行内容（如果没有就加上）：
-
-     Plaintext
 
      ```
      node_modules
      .env.local
      .env
      ```
+     
+   - **解释**：这告诉 Git 工具：“请忽略这些文件”。这样您的 API Key (`.env.local`) 就不会被上传到 GitHub，只有自己电脑上和 Vercel 后台才有。
 
-   - **解释**：这告诉 Git 工具：“请忽略这些文件”。这样您的 API Key (`.env.local`) 就不会被上传到 GitHub，只有您自己电脑上和 Vercel 后台才有。
+### 第二布：将代码上传到 GitHub
 
-### 第二阶段：将代码上传到 GitHub
+没经验的推荐Github Desktop，会的就命令行Git解决。
 
-如果您已经在上一轮对话中完成了这一步，可以跳过。如果还没有，请打开终端（CMD/Terminal），进入您的项目文件夹：
-
-1. **初始化仓库**：
-
-   Bash
-
-   ```
-   git init
-   ```
-
-2. **添加文件**：
-
-   Bash
-
-   ```
-   git add .
-   ```
-
-   *(注意 `add` 后面有一个空格和一个点)*
-
-3. **提交更改**：
-
-   Bash
-
-   ```
-   git commit -m "准备部署到Vercel"
-   ```
-
-4. **关联远程仓库**：
-
-   - 去 GitHub 网站新建一个空仓库（Create a new repository）。
-
-   - 复制那个以 `.git` 结尾的仓库地址。
-
-   - 在终端输入（将地址替换为您自己的）：
-
-     Bash
-
-     ```
-     git branch -M main
-     git remote add origin https://github.com/您的用户名/您的仓库名.git
-     ```
-
-5. **推送到 GitHub**：
-
-   Bash
-
-   ```
-   git push -u origin main
-   ```
-
-### 第三阶段：在 Vercel 上操作（点点鼠标即可）
+### 第三步：在 Vercel 上操作
 
 1. **登录与导入**：
-   - 打开 [Vercel 官网](https://vercel.com/) 并登录（推荐直接用 GitHub 账号登录）。
+   - 打开 [Vercel 官网](https://vercel.com/) 并登录，推荐直接用 GitHub 账号登录。
    - 在控制台点击 **"Add New..."** -> **"Project"**。
    - 在左侧列表里找到您刚才上传的 GitHub 仓库，点击 **"Import"**。
 2. **配置项目（关键步骤）**：
    - Vercel 会自动识别这是 Next.js 项目，大部分设置保持默认即可。
-   - **重点来了**：找到 **Environment Variables** (环境变量) 这一栏，点击展开。
-   - 我们需要手动填入密钥，因为刚才 `.gitignore` 把它拦截了：
-     - **Key** (名称): 填入 `GEMINI_API_KEY` (必须和您代码里用的一模一样)。
+   - **重点来了**：找到 **Environment Variables** 这一栏，点击展开。
+   - 需要手动填入密钥，因为刚才 `.gitignore` 把它拦截了：
+     - **Key** (名称): 填入 `GEMINI_API_KEY` (必须和代码里用的一模一样)。
      - **Value** (值): 填入您的 `AIza...` 开头的那个长字符串。
      - 点击 **Add** 按钮。
 3. **开始部署**：
    - 点击底部的 **"Deploy"** 按钮。
    - 屏幕上会出现构建日志，通常等待 1-2 分钟。
 
-### 第四阶段：大功告成
+### 第四步：大功告成
 
 - 当屏幕上出现满屏的彩带庆祝动画时，说明部署成功了！
-- 点击预览图或 **"Visit"** 按钮，您会得到一个类似 `https://your-project.vercel.app` 的网址。
-- **测试一下**：在那个网址上输入一些内容，看看 AI 是否能正常回复。如果能回复，说明 API Key 配置正确。
+- 点击预览图或 **"Visit"** 按钮，您会进入一个类似 `https://your-project.vercel.app` 的网址。正常来说网页可以直接运行。
+- 同时网页支持直接分享到public。
 
 ------
 
