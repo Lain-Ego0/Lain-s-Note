@@ -1,7 +1,7 @@
 # 📚 Lain's Notes | Lain 的笔记库
 
-> Synced with Feishu for easy access to raw Markdown files.
-> 与飞书同步更新，便于各位读者拿取原始 MD 文件。
+> For easy access to raw Markdown files.
+> 便于各位读者拿取原始 MD 文件。
 
 ## 📖 Introduction / 简介
 
