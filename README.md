@@ -10,11 +10,10 @@ https://github.com/Lain-Ego0/Lain-s-Note
 **已同步的飞书知识库:**
 四足机器人开发入门：[Click here to view / 点击跳转飞书主页](https://wcn9j5638vrr.feishu.cn/wiki/space/7570988375279517715?ccm_open_type=lark_wiki_spaceLink&open_tab_from=wiki_home)
 
-这里是 Lain 的个人笔记库，收录开发记录等。所有文件均与飞书实时同步。建议使用 Typora 打开 Markdown 源文件以获得最佳阅读体验。
+这里是 Lain 的个人笔记库，收录开发记录、各个平台（知乎、小红书等）的文章创作整合等。建议使用 Typora 打开 Markdown 源文件以获得最佳阅读体验。
 
 ## 🗂️ Topics / 主要内容
 
-My notes cover a wide range of technical topics, including but not limited to:
 主要内容涵盖以下领域：
 
 * **高擎实习笔记：**在高擎机电实习期间的学习内容与开发项目
