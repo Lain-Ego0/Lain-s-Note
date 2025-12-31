@@ -17,7 +17,10 @@ https://github.com/Lain-Ego0/Lain-s-Note
 My notes cover a wide range of technical topics, including but not limited to:
 主要内容涵盖以下领域：
 
-* **Embedded Systems:** MCU Development (MCU 开发)
-* **Linux:** Bug Debugging, Driver Porting & Adaptation (Linux bug 排查与驱动适配移植)
-* **Robotics:** General Robotics, SLAM (机器人学、SLAM)
-* **Artificial Intelligence:** Reinforcement Learning, Imitation Learning (强化学习、模仿学习)
+* **高擎实习笔记：**
+* **Linux:**
+* **MCU：**
+* **Robotics:** 
+* **RL\IL：**
+* **其他：**包括电脑遇到的小问题与软件设置等
+
