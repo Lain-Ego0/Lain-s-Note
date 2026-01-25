@@ -1,16 +1,16 @@
 # 📚 Lain's Notes | Lain 的笔记库
 
-### **项目地址：**
+## **项目地址：**
 
 https://github.com/Lain-Ego0/Lain-s-Note
 
-### ❗由于飞书的跨平台编辑性能以及传播性更优，本知识库已全面转向飞书文档，在此提供跳转链接，分为主题知识库链接以及散落的文档解决方案。
+## ❗由于飞书的跨平台编辑性能以及传播性更优，本知识库已全面转向飞书文档，在此提供跳转链接。
 
-#### 1.四足机器人开发入门：
+### 1.四足机器人开发入门：
 
 [Click here to view / 点击跳转飞书主页](https://wcn9j5638vrr.feishu.cn/wiki/space/7570988375279517715?ccm_open_type=lark_wiki_spaceLink&open_tab_from=wiki_home)
 
-- 目录以及链接
+- **目录以及链接**
 [【必读】知识库介绍](https://wcn9j5638vrr.feishu.cn/wiki/MUtjwx2FzixM65kKYhlcxcxdnqg)
 [【PART1】足式机器人扫盲导论](https://wcn9j5638vrr.feishu.cn/wiki/HwyJwB70niKbW7khmwlcbCH2nXb)
 [一、足式机器人理论基础](https://wcn9j5638vrr.feishu.cn/wiki/RtMvwiWJIiLgf6koUOIcIySPnoh)
@@ -28,3 +28,5 @@ https://github.com/Lain-Ego0/Lain-s-Note
 [【附录】参考文献](https://wcn9j5638vrr.feishu.cn/wiki/HYVywra6xijpW7ktfEBcRKGWn9c)
 [【附录】网络开源四足整理表](https://wcn9j5638vrr.feishu.cn/wiki/BmBhwK2QBiia9wkEYqZcJiZinSf)
 [【附录】RC足式开源整理](https://wcn9j5638vrr.feishu.cn/wiki/EzKMwwQtuiqWnwkhm5XcF5AGnze)
+
+### 2.Ubuntu使用记录
