@@ -10,7 +10,6 @@ https://github.com/Lain-Ego0/Lain-s-Note
 
 [Click here to view / 点击跳转飞书主页](https://wcn9j5638vrr.feishu.cn/wiki/space/7570988375279517715?ccm_open_type=lark_wiki_spaceLink&open_tab_from=wiki_home)
 
-- **目录以及链接**
 [【必读】知识库介绍](https://wcn9j5638vrr.feishu.cn/wiki/MUtjwx2FzixM65kKYhlcxcxdnqg)
 [【PART1】足式机器人扫盲导论](https://wcn9j5638vrr.feishu.cn/wiki/HwyJwB70niKbW7khmwlcbCH2nXb)
 [一、足式机器人理论基础](https://wcn9j5638vrr.feishu.cn/wiki/RtMvwiWJIiLgf6koUOIcIySPnoh)
@@ -30,3 +29,13 @@ https://github.com/Lain-Ego0/Lain-s-Note
 [【附录】RC足式开源整理](https://wcn9j5638vrr.feishu.cn/wiki/EzKMwwQtuiqWnwkhm5XcF5AGnze)
 
 ### 2.Ubuntu使用记录
+[显卡无法与NVIDIA驱动通信](https://wcn9j5638vrr.feishu.cn/wiki/KQK9whSwViTFIHkQo95cRGN2n3b
+)
+[Liunx版本Github desktop无法Git](https://wcn9j5638vrr.feishu.cn/wiki/EowDw7C3viyV0GklM4mcQaqxntf
+)
+[关机等待1min30s延时（A stop job is running for……）](https://wcn9j5638vrr.feishu.cn/wiki/Ios8w9lEgiBcnTkb7L5cL7QZn4d
+)
+
+
+
+- ……建设中
