@@ -47,10 +47,13 @@ https://github.com/Lain-Ego0/Lain-s-Note
 ### 2.Ubuntu使用记录
 [显卡无法与NVIDIA驱动通信](https://wcn9j5638vrr.feishu.cn/wiki/KQK9whSwViTFIHkQo95cRGN2n3b
 )
+
 [Liunx版本Github desktop无法Git](https://wcn9j5638vrr.feishu.cn/wiki/EowDw7C3viyV0GklM4mcQaqxntf
 )
+
 [关机等待1min30s延时（A stop job is running for……）](https://wcn9j5638vrr.feishu.cn/wiki/Ios8w9lEgiBcnTkb7L5cL7QZn4d
 )
+
 
 
 
