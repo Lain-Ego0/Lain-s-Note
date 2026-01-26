@@ -54,7 +54,10 @@ https://github.com/Lain-Ego0/Lain-s-Note
 [关机等待1min30s延时（A stop job is running for……）](https://wcn9j5638vrr.feishu.cn/wiki/Ios8w9lEgiBcnTkb7L5cL7QZn4d
 )
 
+[Ubuntu20.04 日文汉字显示优先级高于中文汉字 解决方案](https://wcn9j5638vrr.feishu.cn/wiki/MlL1w7N7KiErAlk1fGRcFejin3g
+)
 
-
+[解决50系显卡与Isaac Gym强化学习平台不兼容的问题](https://wcn9j5638vrr.feishu.cn/wiki/T1wVwRRozikqJAkMY00cjsz3n6e
+)
 
 - ……建设中
